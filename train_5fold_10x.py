@@ -2,8 +2,8 @@ import os
 import logging
 import torch
 from torch.utils.data import DataLoader
-from survival_dataset_5modal import SurvivalDataset  # Adjust import as needed
-from train_test_1modal import train, test, test_and_plot
+from data_loaders.survival_dataset_5modal import SurvivalDataset  # Adjust import as needed
+from train_test.train_test_1modal import train, test, test_and_plot
 from options import parse_args
 import numpy as np
 import pandas as pd
