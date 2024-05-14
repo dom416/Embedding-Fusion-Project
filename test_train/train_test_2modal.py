@@ -3,7 +3,7 @@ from tqdm import tqdm
 import numpy as np
 import torch
 import torch.backends.cudnn as cudnn
-from HFB_fusion_2modal import HFBSurv
+from models.HFB_fusion_2modal import HFBSurv
 from torch.utils.data import DataLoader
 from survival_dataset_5fold import SurvivalDataset
 from utils import CoxLoss, regularize_weights, CIndex_lifeline, cox_log_rank, accuracy_cox,count_parameters
