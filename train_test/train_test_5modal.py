@@ -6,7 +6,6 @@ import torch.backends.cudnn as cudnn
 from models.HFB_fusion_5modal import HFBSurv
 from torch.utils.data import DataLoader
 from torch.nn import DataParallel
-from survival_dataset_5modal import SurvivalDataset
 from utils import CoxLoss, regularize_weights, CIndex_lifeline, cox_log_rank, accuracy_cox,count_parameters
 import torch.optim as optim
 import pickle
