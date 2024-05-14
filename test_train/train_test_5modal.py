@@ -3,7 +3,7 @@ from tqdm import tqdm
 import numpy as np
 import torch
 import torch.backends.cudnn as cudnn
-from HFB_fusion_5modal import HFBSurv
+from models.HFB_fusion_5modal import HFBSurv
 from torch.utils.data import DataLoader
 from torch.nn import DataParallel
 from survival_dataset_5modal import SurvivalDataset
